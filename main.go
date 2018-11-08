@@ -14,6 +14,7 @@ import (
 	"github.com/bitrise-io/go-utils/fileutil"
 	"github.com/bitrise-io/go-utils/log"
 	"github.com/bitrise-tools/go-steputils/input"
+	"github.com/bitrise-tools/go-steputils/tools"
 )
 
 // ConfigsModel ...
