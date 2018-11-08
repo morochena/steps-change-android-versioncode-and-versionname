@@ -189,8 +189,8 @@ func main() {
 	}
 
 	fmt.Println()
-	log.Donef("%d finalVersionCode", finalVersionCode)
-	log.Donef("%d finalVersionName", finalVersionName)
+	log.Donef("%s finalVersionCode", finalVersionCode)
+	log.Donef("%s finalVersionName", finalVersionName)
 	log.Donef("%d versionCode updated", updatedVersionCodes)
 	log.Donef("%d versionName updated", updatedVersionNames)
 }
