@@ -179,6 +179,9 @@ func main() {
 		"ANDROID_VERSION_NAME": finalVersionName,
 		"ANDROID_VERSION_CODE": finalVersionCode,
 	}); 
+	log.Donef("%d finalVersionCode", finalVersionCode)
+	log.Donef("%d finalVersionName", finalVersionName)
+	
 	if err != nil {
 		logFail("Failed to export outputs, error: %s", err)
 	}
