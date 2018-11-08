@@ -175,7 +175,7 @@ func main() {
 
 	//
 	// export outputs
-	err := exportOutputs(map[string]string{
+	err = exportOutputs(map[string]string{
 		"ANDROID_VERSION_NAME": finalVersionName,
 		"ANDROID_VERSION_CODE": finalVersionCode,
 	}); 
