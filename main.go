@@ -175,10 +175,11 @@ func main() {
 
 	//
 	// export outputs
-	if err := exportOutputs(map[string]string{
+	err := exportOutputs(map[string]string{
 		"ANDROID_VERSION_NAME": finalVersionName,
 		"ANDROID_VERSION_CODE": finalVersionCode,
-	}); err != nil {
+	}); 
+	if err != nil {
 		logFail("Failed to export outputs, error: %s", err)
 	}
 
